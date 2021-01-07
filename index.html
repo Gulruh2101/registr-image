@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>registr-image</title>
+</head>
+<body>
+    <form id="form">
+        <label>ismingizni kiriting:😊</label>
+        <br>
+        <input id="ism" type="text">
+        <br>
+        <label>Malumotingizni kiriting:😊</label>
+        <br>
+        <textarea id="about" cols="30" rows="10"></textarea>
+        <br>
+        <label>Fayl ichidagi rasmni tanlang!</label>
+        <br>
+        <input type="file" id="rasm">
+        <br>
+        <label>Jonatishga tayyormisz?</label>
+        <br>
+        <input class="jonat" type="submit" onsubmit="getData">
+        <br>
+        <!-- <span>Natija:</span> -->
+    </form>
+    <img id="flower" src="icon/blossom.svg" alt="" width="40" height="40">
+    <img id="flower2" src="icon/blossom.svg" alt="" width="40" height="40">
+    <div id="shaxsiyMalumotlar">
+
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
