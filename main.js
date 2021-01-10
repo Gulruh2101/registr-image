@@ -1,4 +1,4 @@
-alert('Assalomu alaykum loyihachamga hush kelibsiz!!🥰')
+alert('hello dears!!🥰')
 
 const arrgument = []
 form.onsubmit = (masalan)=>{
